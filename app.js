@@ -17,15 +17,15 @@ let sentence = "Hello World, I am Bongeka";
     // console.log(listBook[i][0]); //will print the first letter for each book 
     i++
   }
-let x = ""
-  for (x of sentence);{
-    console.log(x);
-  }
+// let x = ""
+//   for (x of sentence);{
+//     console.log(x);
+//   }
   
 
-    for (x of listBook);{
-    console.log(x);
-}
+//     for (x of listBook);{
+//     console.log(x);
+// }
 
 let marks = {
     Bongeka: 65,
@@ -39,6 +39,21 @@ for (mark in marks) {
     // console.log(marks[mark]);
 }
 
-while (i<6) {
+while (i < 6) {
      console.log(sentence[i]);
+     i++
 }
+
+let condition = false;
+do {
+    console.log("do while is running");
+    condition = false
+}
+
+while (condition);
+
+let j = 10
+do {
+  console.log("another do while is running");
+  j++
+} while (j < 6);
